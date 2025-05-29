@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+div {
+    width: 600px;
+    margin: 5em auto;
+    padding: 2em;
+    background-color: #fdfdff;
+    border-radius: 0.5em;
+    box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+}
+a:link, a:visited {
+    color: #38488f;
+    text-decoration: none;
+}
+@media (max-width: 700px) {
+    div {
+        margin: 0 auto;
+        width: auto;
+    }
+}
+
+
+/* pre and code style */
+
+  pre {
+    /* light */
+    background-color: #f4f4f4;
+    color: #333;
+    /* background-color: #1e1e1e;      
+    color: #dcdcdc;                 */
+    padding: 16px;                  /* Inner spacing */
+    border-radius: 8px;             /* Rounded corners */
+    font-family: Consolas, monospace; /* Code-like font */
+    font-size: 14px;
+    overflow-x: auto;               /* Scroll if code is wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    line-height: 1.6;
+    margin: 20px 0;                 /* Spacing around block */
+    
+  }
+
+  .pre-dark{
+        /* light */
+    /* background-color: #f4f4f4;
+    color: #333; */
+    background-color: #1e1e1e;      
+    color: #dcdcdc;                
+    padding: 16px;                  /* Inner spacing */
+    border-radius: 8px;             /* Rounded corners */
+    font-family: Consolas, monospace; /* Code-like font */
+    font-size: 14px;
+    overflow-x: auto;               /* Scroll if code is wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    line-height: 1.6;
+    margin: 20px 0;                 /* Spacing around block */
+  }
+
+  code {
+    color: inherit;                /* Use same color as pre */
+    background: none;             /* Remove default code bg */
+  }
